@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import Animation from '@/components/home/animation.jsx'
 
 export default function content() {
@@ -12,7 +13,12 @@ export default function content() {
       </div>
       <div className="flex flex-wrap">
         <div className="xl:w-1/3 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-slate-400 border-opacity-30">
-          <img src="/images/Github Logo.png" alt="Github Logo.png" width={30} />
+          <Image
+            src="/images/Github Logo.png"
+            alt="Github Logo.png"
+            width={30}
+            height={30}
+          />
           <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
             My Github
           </h2>
@@ -35,7 +41,12 @@ export default function content() {
           </a>
         </div>
         <div className="xl:w-1/3 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-slate-400 border-opacity-30">
-          <img src="/images/About me.png" alt="About me.png" width={30} />
+          <Image
+            src="/images/About me.png"
+            alt="About me.png"
+            width={30}
+            height={30}
+          />
           <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
             About
           </h2>
@@ -58,7 +69,12 @@ export default function content() {
           </a>
         </div>
         <div className="xl:w-1/3 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-r-2 border-slate-400 border-opacity-30">
-          <img src="/images/Project.png" alt="Project.png" width={30} />
+          <Image
+            src="/images/Project.png"
+            alt="Project.png"
+            width={30}
+            height={30}
+          />
           <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
             Projects
           </h2>
