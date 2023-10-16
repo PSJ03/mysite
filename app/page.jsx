@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Content from '@/components/home/content.jsx'
+import Content from '@/components/Content.jsx'
 
 export default function Home() {
   return (

@@ -3,9 +3,9 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import Animation from '@/components/home/animation.jsx'
+import Animation from '@/components/Animation.jsx'
 
-export default function content() {
+export default function Content() {
   return (
     <>
       <div className="flex flex-col text-center w-full items-center">
