@@ -26,7 +26,9 @@ export default function content() {
             저의 github 페이지로 갈 수 있습니다.
           </p>
           <a className="text-gray-500 font-medium hover:text-gray-800  inline-flex items-center">
-            <Link href="https://github.com/PSJ03/">보러가기</Link>
+            <Link href="https://github.com/PSJ03/" target="_blank">
+              보러가기
+            </Link>
             <svg
               fill="none"
               stroke="currentColor"
@@ -82,7 +84,10 @@ export default function content() {
             현재 진행 중에 있는 프로젝트를 볼 수 있습니다.
           </p>
           <a className="text-gray-500 font-medium hover:text-gray-800 inline-flex items-center">
-            <Link href="https://github.com/PSJ03?tab=repositories">
+            <Link
+              href="https://github.com/PSJ03?tab=repositories"
+              target="_blank"
+            >
               보러가기
             </Link>
             <svg
