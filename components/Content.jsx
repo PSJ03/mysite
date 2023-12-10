@@ -8,14 +8,14 @@ import Animation from '@/components/Animation.jsx'
 export default function Content() {
   return (
     <>
-      <div className="flex flex-col text-center w-full items-center">
+      <div className="flex flex-col text-center w-full h-full items-center">
         <Animation />
       </div>
       <div className="flex flex-wrap">
         <div className="xl:w-1/3 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-slate-400 border-opacity-30">
           <Image
-            src="/images/Github Logo.png"
-            alt="Github Logo.png"
+            src="/images/Github_Logo.png"
+            alt="Github_Logo.png"
             width={30}
             height={30}
           />
@@ -44,8 +44,8 @@ export default function Content() {
         </div>
         <div className="xl:w-1/3 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-slate-400 border-opacity-30">
           <Image
-            src="/images/About me.png"
-            alt="About me.png"
+            src="/images/About_me.png"
+            alt="About_me.png"
             width={30}
             height={30}
           />
@@ -84,12 +84,7 @@ export default function Content() {
             현재 진행 중에 있는 프로젝트를 볼 수 있습니다.
           </p>
           <a className="text-gray-500 font-medium hover:text-gray-800 inline-flex items-center">
-            <Link
-              href="https://github.com/PSJ03?tab=repositories"
-              target="_blank"
-            >
-              보러가기
-            </Link>
+            <Link href="/repos">보러가기</Link>
             <svg
               fill="none"
               stroke="currentColor"

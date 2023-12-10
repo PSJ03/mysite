@@ -12,8 +12,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="`{inter.className}` bg-gradient-to-b from-gray-300 to-gray-200">
-        <Header />
+      <body className="`{inter.className}` bg-gradient-to-b from-gray-300 to-gray-200 relative">
+        <div className="fixed top-0 left-0 right-0">
+          <Header />
+        </div>
         <main className="container">
           <div className="flex items-start justify-center min-h-screen">
             <div className="mt-20">{children}</div>

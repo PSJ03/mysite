@@ -1,7 +1,9 @@
-import React from 'react'
+'use client'
+
+import React, { useEffect } from 'react'
 import Lottie from 'react-lottie-player'
 // Alternatively:
-// import Lottie from 'react-lottie-player/dist/LottiePlayerLight'
+//import Lottie from 'react-lottie-player/dist/LottiePlayerLight'
 
 import lottieJson from '/public/Animation.json'
 
