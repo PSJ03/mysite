@@ -24,7 +24,28 @@ export default function AboutPage() {
           </h1>
           <div className="text-white relative">
             <p className="bg-white text-black w-1/3 text-center rounded-full absolute -top-10 -right-2 p-1 border-2 border-solid border-gray-600">
-              팀원 - 김승언, 박서진, 유혁준, 신준혁
+              팀원 -{' '}
+              <button>
+                <Link href="https://portfolio-hyk.vercel.app/" target="_blank">
+                  신준혁
+                </Link>
+              </button>
+              ,{' '}
+              <button>
+                <Link href="https://site-anvoanvo.vercel.app/" target="_blank">
+                  김승언
+                </Link>
+              </button>
+              ,{' '}
+              <button>
+                <Link
+                  href="https://next-js-portfolio-jade.vercel.app/"
+                  target="_blank"
+                >
+                  유혁준
+                </Link>
+              </button>
+              , 박서진
             </p>
             <p>
               끝난 게임의 전적과 통계, 또는 타 플레이어의 정보를 검색하는
